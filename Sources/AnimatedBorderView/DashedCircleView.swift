@@ -12,13 +12,14 @@ public struct DashedCircleView<DashColor: ShapeStyle>: View {
     let lineWidth: CGFloat
     let dashCount: Int
     let radius: CGFloat
-    let dashPhase: CGFloat
-    let dashLength: CGFloat
     let duration: CGFloat
     let dashColor: DashColor
     @Binding var phaseAnimation: Bool
     
-    init(
+    let dashPhase: CGFloat
+    let dashLength: CGFloat
+    
+    public init(
         lineWidth: CGFloat,
         dashCount: Int,
         radius: CGFloat,

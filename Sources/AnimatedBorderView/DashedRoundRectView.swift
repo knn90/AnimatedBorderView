@@ -8,18 +8,19 @@
 import SwiftUI
 
 public struct DashedRoundRectView<DashColor: ShapeStyle>: View {
+    
     let lineWidth: CGFloat
     let dashCount: Int
     let size: CGSize
     let cornerRadius: CGFloat
     let duration: CGFloat
     let dashColor: DashColor
+    @Binding var phaseAnimation: Bool
+    
     let dashPhase: CGFloat
     let dashLength: CGFloat
     
-    @Binding var phaseAnimation: Bool
-    
-    init(
+    public init(
         lineWidth: CGFloat,
         dashCount: Int,
         size: CGSize,
