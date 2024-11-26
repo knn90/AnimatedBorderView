@@ -1,6 +1,6 @@
 # AnimatedBorderView
 
-Adding visual interest to your SwiftUI views is a breeze with animated dashed borders. Let me guide you through creating a custom dashed border that can bring a refreshing dynamism to your UI designs.
+Adding visual interest to your SwiftUI views is a breeze with animated dashed borders.
 
 #### Installation
 Swift package manager: `https://github.com/knn90/AnimatedBorderView.git`
@@ -13,6 +13,6 @@ Wondering how this looks in action? Check out the following preview to see an ex
 https://github.com/user-attachments/assets/13a1a97e-f173-4ee1-badc-f87b6ea80ecc
 
 
-You can find the details explanation [here](https://knn90.github.io/posts/ios/animatedborderview/)
+You can find the detailed explanation [here](https://knn90.github.io/posts/ios/animatedborderview/)
 
 ### Happy coding!
